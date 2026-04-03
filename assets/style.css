@@ -131,6 +131,13 @@ h3 {
   font-size: 1.3rem;
 }
 
+.logo-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -315,12 +322,8 @@ nav a:hover::after {
 .phone-screen .app-icon-large {
   width: 80px;
   height: 80px;
-  background: var(--primary);
   border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.4rem;
+  object-fit: contain;
   margin-bottom: 16px;
   box-shadow: 0 4px 16px rgba(103, 80, 164, 0.3);
 }
@@ -637,6 +640,11 @@ nav a:hover::after {
 .footer-brand .logo .logo-icon {
   background: var(--primary-light);
   color: var(--primary-dark);
+}
+.footer-brand .logo .logo-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
 }
 .footer-brand p {
   font-size: 0.9rem;
