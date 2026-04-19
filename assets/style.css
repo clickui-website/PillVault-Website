@@ -737,6 +737,53 @@ nav a:hover::after {
   list-style: disc;
 }
 
+/* ---------- License Table ---------- */
+.license-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 32px;
+  font-size: 0.95rem;
+}
+.license-table th,
+.license-table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.license-table th {
+  background: var(--bg-alt);
+  font-weight: 600;
+  color: var(--text-dark);
+  position: sticky;
+  top: 0;
+}
+.license-table td a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.license-table td a:hover {
+  text-decoration: underline;
+}
+.license-text {
+  background: var(--bg-alt);
+  border-left: 4px solid var(--primary);
+  padding: 20px 24px;
+  margin: 16px 0 32px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-light);
+}
+@media (max-width: 600px) {
+  .license-table {
+    font-size: 0.82rem;
+  }
+  .license-table th,
+  .license-table td {
+    padding: 8px 8px;
+  }
+}
+
 /* ---------- Support Page ---------- */
 .support-hero {
   padding: 60px 0 40px;
